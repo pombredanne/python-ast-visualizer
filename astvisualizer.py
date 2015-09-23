@@ -9,7 +9,7 @@ import optparse
 import sys
 
 def main(args):
-    parser = optparse.OptionParser(usage="find_pattern.py [options] [string]")
+    parser = optparse.OptionParser(usage="astvisualizer.py [options] [string]")
     parser.add_option("-f", "--file", action="store",
                       help="Read a code snippet from the specified file")
     parser.add_option("-l", "--label", action="store",
